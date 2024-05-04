@@ -6,11 +6,30 @@
     text-align: center;
 }
 
+
+
 .container p.text {
-    
+
     background-color: #EAFF17;
     color: hsl(6, 92%, 48%);
     font-size: 20px;
     text-align: center;
 
 }
+/* it could also work with one of the above 
+.container .text {
+    background-color: yellow;
+    color: #E00000;
+    font-size: 20px;
+    text-align: center;
+  }    
+  
+  /* Below are some other possible descendant combinators:
+  
+  div p
+  div > p
+  div .text
+  .container p
+  
+  */
+  
